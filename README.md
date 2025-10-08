@@ -1,29 +1,43 @@
-# README.md
+# 🧠 Fundamentos y Funciones en JavaScript
 
-## Descripción
-Esta es una página web simple y dinámica construida con HTML, CSS (Bootstrap 5) y JavaScript. Muestra una galería de 8 memes aleatorios cargados desde la API de Imgflip (usando clonación de plantillas y fetch asíncrono), y un sticker/GIF único de "Goku" obtenido de la API de Giphy. Ideal como prueba de integración de APIs externas como parte de la materia de Desarrollo de Aplicaciones Web.
+En esta práctica se trabajó con los **fundamentos del lenguaje JavaScript**, enfocados en el uso de **variables**, **cadenas de texto (strings)**, **funciones** y **conversión de tipos**, entre otros conceptos aplicados dentro de una página web.
 
-## Tecnologías Usadas
-- **HTML5 & CSS3**: Estructura y estilos base.
-- **Bootstrap 5**: Grid responsive, componentes UI (rows, cols, shadows, etc.).
-- **JavaScript ES6+**: Fetch asíncrono, manipulación DOM (querySelector, cloneNode, appendChild), manejo de errores con try-catch.
-- **APIs Externas**: Imgflip (memes) y Giphy (stickers/GIFs, requiere API key gratuita).
-- **Despliegue**: GitHub Pages y Netlify (estático, HTTPS).
+El objetivo principal fue **familiarizarse con la sintaxis básica del lenguaje** y comprender cómo se **almacenan y manipulan los datos dinámicamente** en el entorno del navegador.
 
-## Cómo Funciona
-1. **Memes**: La función `obtenerMemes()` hace fetch a Imgflip, clona una plantilla HTML (#meme), actualiza las URLs de imágenes en 8 clones, los agrega a un contenedor (#list-memes) y remueve la plantilla original.
-2. **GIF/Sticker**: La función `obtenerGif()` busca en Giphy, extrae la URL del primer resultado y la asigna directamente a una `<img>` en la plantilla (#gif).
-3. **Carga**: Ambas funciones se ejecutan automáticamente al cargar la página. El sitio es ligero y se actualiza sin recarga.
+---
 
-## Instalación y Uso Local
-1. Clona el repositorio: `git clone <tu-repo-url>`.
-2. Abre `index.html` en un navegador (o usa un servidor local como Live Server en VS Code).
-3. Reemplaza la API key de Giphy en `datosGift.js` (obtén una gratis en [developers.giphy.com](https://developers.giphy.com/)).
-4. Funciona offline para la estructura, pero necesita internet para las APIs.
+## 🧩 Descripción de la Práctica
 
-## Enlaces de Producción
-- **Netlify**: [https://aw-lab-apitest.netlify.app/](https://aw-lab-apitest.netlify.app/)
-- **GitHub Pages**: [https://nw08.github.io/Aplicaciones-Web/](https://nw08.github.io/Aplicaciones-Web/)  <!-- Reemplaza con tu enlace real -->
+Esta práctica permitió aplicar los conocimientos adquiridos en clase sobre la **sintaxis fundamental de JavaScript**, trabajando directamente con **datos extraídos de una página web**.  
+Durante el desarrollo se realizaron ejercicios destinados a:
+
+- Validar el **funcionamiento del código**.  
+- **Identificar errores** comunes en la lógica o la sintaxis.  
+- Fortalecer habilidades de **depuración** y **análisis lógico**.  
+- Comprender cómo el navegador **interpreta y ejecuta** el código JavaScript.
+
+---
+
+## 📂 Contenido de la Rama
+
+Esta rama contiene ejemplos prácticos relacionados con:
+
+- Declaración y uso de **variables** (`var`, `let`, `const`).  
+- Manipulación de **strings** y operaciones básicas con texto.  
+- Creación y ejecución de **funciones**.  
+- **Conversión de tipos** entre números, cadenas y booleanos.  
+- Interacción básica con el contenido de una **página web** (DOM).  
+
+---
+
+## 🚀 Objetivo de Aprendizaje
+
+Consolidar la comprensión de los conceptos esenciales de JavaScript y desarrollar la capacidad de **analizar, depurar y mejorar código** dentro de un entorno real de ejecución (el navegador).
+
+---
+
+✍️ *Esta rama forma parte del conjunto de prácticas orientadas a dominar los principios básicos del desarrollo con JavaScript.*
+
 
 ## ESCUELA POLITÉCNICA NACIONAL
 ### GR1, Ortiz Josué, Ganchala Eduardo, Girón María Paula
